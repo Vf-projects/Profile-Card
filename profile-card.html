@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./profile-card.css">
+  <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <title>My Profile Card</title>
+</head>
+<body>
+  <article
+    data-testid="test-profile-card" 
+    class="profile-card"
+  >
+
+    <header>
+      TEST PROFILE CARD
+    </header>
+
+    <div  
+      class="profile-details"
+    >
+      <div>
+        <figure>
+          <img 
+            data-testid="test-user-avatar" 
+            class="user-photo" 
+            src="./image/profile pic.JPG" 
+            alt="Person Image"
+          >
+        </figure>
+        <p 
+          data-testid="test-user-time" 
+          id="user-time"
+        >
+        </p>
+      </div>
+
+      <div 
+        class="biography"
+      >
+        <h2 
+          data-testid="test-user-name" 
+          class="user-name"
+        >
+          OMENIHU VICTOR
+        </h2>
+
+        <p 
+          data-testid="test-user-bio" 
+          class="user-bio"
+        >
+          I am a Frontend Developer, training to become a Full-Stack, i love solving problems, 
+          it started with Mathematics in School and now applying the same in programming (Debugging) is 
+          something fun to do. Also planning ahead to making impacts in the society, helping in resolving problems
+          through my code and to get the best.
+        </p>
+
+        <section 
+          class="hobby-dislikes"
+        >
+          <ul 
+            class="user-hobbies"
+            data-testid="test-user-hobbies"
+          >
+            <h3>❤️ HOBBIES</h3>
+            <li>God First</li>
+            <li>Playing Drums</li>
+            <li>Table Tennis</li>
+            <li>Calculations</li>
+            <li>Listening to Music</li>
+          </ul>
+          
+          <ul 
+            class="user-dislikes"
+            data-testid="test-user-dislikes"
+          >
+            <h3>👎 DISLIKES</h4>
+            <li>Disorientation</li>
+            <li>Disorganization</li>
+            <li>Reading Course (e.g History)</li>
+          </ul>
+        </section>
+      </div>
+      
+    </div>
+
+    <footer>
+      <nav>
+        <p>Connect with me :</p>
+
+        <ul
+          data-testid="test-user-social-links"
+          class="user-social-links"
+        >
+          <li
+            data-testid="test-user-github"
+          >
+            <a target="_blank" href="https://github.com/Vf-projects">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+          
+          <li
+            data-testid="test-user-linkedIn"
+          >
+            <a target="_blank" href="https://www.linkedin.com/in/omenihu-victor-7ab935370/">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </footer>
+
+  </article>
+  <script src="./profile-card.js"></script>
+</body>
+</html>
